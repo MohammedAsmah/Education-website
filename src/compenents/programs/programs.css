@@ -1,0 +1,48 @@
+.program{
+    width: 30%;
+    position: relative;
+    
+    
+}
+.program .imgprogram{
+    width: 100%;
+border-radius: 20px;
+}
+.programs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    
+}
+.iconprogrma{
+    width:100%;
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:rgba(0,15,152,0.3);
+    border-radius: 20px;
+    opacity: 0;
+    padding-top: 60px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+.program .iconprogrma img{
+    width: 30%;
+    margin-bottom: 10px;
+  
+}
+.program .iconprogrma p{
+   color:white;
+}
+.iconprogrma:hover{
+    opacity: 100%;
+    padding-top: 0;
+
+}
