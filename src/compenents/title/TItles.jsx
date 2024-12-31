@@ -1,10 +1,10 @@
 import './titles.css'
-export default function Tiltles(){
+export default function Tiltles({subtitle , title}){
 
     return(
         <div className='titles'>
-            <h4>our progrma</h4>
-            <h1>what we offer</h1>
+            <h4>{subtitle}</h4>
+            <h1>{title}</h1>
         </div>
     )
 }

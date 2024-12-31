@@ -1,0 +1,38 @@
+.gallary{
+    width: 100%;
+    margin: 60px 0;
+    display:flex;
+    justify-content:space-between;
+}
+.gallary img{
+    width:22%;
+    flex-basis: 22%;
+    border-radius: 20px;
+}
+.all{
+    text-align: center;
+    margin: 60px 0;
+}
+.white-arr{
+    width: 25px;
+    margin-left: 14px;
+}
+/* media query */
+@media (max-width: 800px) {
+    .gallary{
+        flex-wrap: wrap;
+        margin:  20px auto;
+        width: 90%;
+    }
+    .gallary img{
+        width:48%;
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+    .white-arr{
+        width: 25px;
+        margin-left: 5px;
+    }
+    
+  }
+  

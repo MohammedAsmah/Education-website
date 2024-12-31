@@ -1,6 +1,7 @@
 .program{
     width: 30%;
     position: relative;
+    margin: 60px 0;
     
     
 }
@@ -43,6 +44,27 @@ border-radius: 20px;
 }
 .iconprogrma:hover{
     opacity: 100%;
-    padding-top: 0;
-
+    padding-top: 0
 }
+/* media query */
+@media (max-width: 700px) {
+    .programs{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 60px auto;
+        width: 80%;
+        
+    }
+    .program{
+        width: 100%;
+        position: relative;
+        margin:  20px auto;
+        width: 90%;
+        
+        
+    }
+   
+  }
+  
